@@ -71,7 +71,7 @@
     /* --------------------------------------header end -----------------------------------*/
     /* main start */
 
-.blogs{
+    .blogs{
     display: grid;
     grid-template-columns:repeat(3,1fr) ;
     grid-template-rows: repeat(3,1fr);
@@ -81,15 +81,14 @@
     
     
 }
- .play-section{ display: flex; 
-   
+    .play-section{ display: flex; 
     justify-content: center;
     width: 1860px;
     
     
 
 }
-.navigation{
+    .navigation{
     background-color: black;
     height: 300px;
     width: 300px;
@@ -102,7 +101,7 @@
     margin-bottom: 25px;
     border-radius: 7%;
 }
-.navigation-items{
+    .navigation-items{
     display:grid;
     grid-template-columns:repeat(1,1fr) ;
     grid-template-rows: repeat(3,1fr);
@@ -112,8 +111,7 @@
    
 }
 
-.navigation-button{
-
+    .navigation-button{
     color:black;
     padding: 25px 20px;
     background:white;
@@ -123,34 +121,35 @@
     border-radius: 20px;
 
 }
- #blog-nav{
-
+    #blog-nav{
     background-color: red;
     color: white;
+
 }
-.thumbnail{
+    .thumbnail{
     
     padding: 5px;
     height: 380px;
 }
-.thumbnail p{
+    .thumbnail p{
     display: flex;
 
 }
-.thumbnail input{
+    .thumbnail input{
     border-radius: 5px;
     padding: 5px;
     width: 50;
 }
 
-.blog-button{
-    
+    .blog-button{
     color:black;
     padding: 3px;
     background:white;
     text-decoration: none;
     border: 1px solid rgb(116, 112, 112);
     border-radius: 5px;
+
+    
 }
 /* main section end--------------------------------------- */
 /* footer start  */
@@ -184,6 +183,7 @@ text-decoration: none;
     justify-content: center;
     border-bottom:  1px solid rgba(255, 255, 255, 0.1);;
     margin-left: 150px;
+    margin-top: 70px;
 }
 /* footer end  */
 
