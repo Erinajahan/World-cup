@@ -76,14 +76,15 @@
     grid-template-columns:repeat(3,1fr) ;
     grid-template-rows: repeat(3,1fr);
     grid-gap:30px ;
-    height: 100px;
-    width: 1050px;
+    height: 1400px;
+    width: 1040px;
     
     
 }
  .play-section{ display: flex; 
    
     justify-content: center;
+    width: 1860px;
     
     
 
@@ -121,8 +122,6 @@
     font-size: large;
     border-radius: 20px;
 
-   
-   
 }
  #blog-nav{
 
@@ -152,8 +151,39 @@
     text-decoration: none;
     border: 1px solid rgb(116, 112, 112);
     border-radius: 5px;
-
+}
+/* main section end--------------------------------------- */
+/* footer start  */
+footer{
+    background-color: black;
+    color: white;
+    height: 400px;
   
+}
+.footer-text{
+    text-align: center;
     
+}
+
+.footer-items{
+   margin-top: 100px;
+   
+}
+
+.footer-items p>a{
+    padding: 10px;
+    font-size: 10px;
 
 }
+.footer-button{
+color: white;
+text-decoration: none;
+}
+.goal-item{
+    width: 1500px ;
+    justify-content: center;
+    border-bottom:  1px solid rgba(255, 255, 255, 0.1);;
+    margin-left: 150px;
+}
+/* footer end  */
+
