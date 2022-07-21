@@ -1,0 +1,161 @@
+/* font link*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+/* common styles */
+    body{
+    font-family: 'Poppins', sans-serif;
+    background-color: white;
+}
+@media only screen and (max-width: 900px) {
+    /* tablet device--------- */
+
+/* header start-------- */
+.container{
+    background-color: black;
+    border-radius: 10px;
+    height: 410px;
+    width: 800px;
+    margin-top: 0;
+    margin-bottom: 90px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+} 
+.section{
+    margin: 30px;
+    display: flex;
+    color: azure;
+    width: 750px;
+    height: 400px;
+  
+    
+ }
+ .section h1{
+    font-size: 30px;
+    
+    
+}
+.section p{
+    font-size:10px ;
+   
+
+}
+
+.header-info{
+    text-align: justify;
+    margin: 5px;
+    padding: 5px;
+    width: 375px;
+    height: 390px;
+    
+}
+
+    .header-image{
+    
+    width: 375px;
+    height: 385px;
+    
+}
+.button{
+    
+    padding: 10px 15px;
+    font-size: medium;
+}
+
+/* header end---------- */
+ /* main start */
+
+ .blogs{
+    display: grid;
+    grid-template-columns:repeat(2,1fr) ;
+    grid-template-rows: repeat(5,1fr);
+    grid-gap:30px ;
+    height: 2010px;
+    width: fit-content;
+    padding: 10px;
+    margin-top: 20px;
+    
+    
+}
+    .play-section{ display: grid; 
+        grid-template-columns:(1,1fr);
+        grid-template-rows: repeat(3,1fr);
+        width: 799px;
+        height: 2340px;
+        margin-left: 10px;
+    
+      
+    }
+    .section h1{
+        width:400px;
+    }
+    .navigation{
+       
+        height: 100px;
+        width: 800px;
+        padding-right: 10px;
+        padding-left:10px ;
+        margin: 0;
+        border-radius: 7%;
+        background-color: white;
+    }
+        .navigation-items{
+        display:flex;
+        padding: 10px;
+       
+        
+       
+    }
+    
+        .navigation-button{
+        width: 266px;
+        padding: 25px 20px;
+        justify-items: center;
+        border-radius: 25px;
+        border: 1px solid gray;
+
+
+    }
+    .view-all{
+        height: 145px;
+        color: black;
+    }
+        
+    
+    .view-all-button{
+    color:white;
+    padding: 20px 50px;
+    background: red;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: large;
+    border-radius: 20px;
+    margin-left: 300px;
+   
+
+    }
+  
+    /* footer start  */
+footer{
+   
+    height: 340px;
+    width: 820px;
+  
+}
+.footer-items{
+   margin-top: 100px;
+}
+
+.footer-items p>a{
+    padding: 10px;
+    font-size: 10px;
+
+}
+.goal-item{
+    width: 608px ;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+/* footer end  */
+
+
+}

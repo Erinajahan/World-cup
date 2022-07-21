@@ -4,7 +4,9 @@
     body{
     font-family: 'Poppins', sans-serif;
     background-color: white;
+
 }
+/* header start---------- */
     .container{
     background-color: black;
     margin-left: 210px;
@@ -135,11 +137,7 @@
     display: flex;
 
 }
-    .thumbnail input{
-    border-radius: 5px;
-    padding: 5px;
-    width: 50;
-}
+
 
     .blog-button{
     color:black;
@@ -150,6 +148,9 @@
     border-radius: 5px;
 
 
+}
+.view-all{
+    display: none;
 }
 /* main section end--------------------------------------- */
 /* footer start  */
@@ -211,7 +212,7 @@ text-decoration: none;
             grid-template-rows: repeat(300px,300px) ;
             margin: 5px;
             color: azure;
-            width: 250px;
+            width: 350px;
             height: 400px;
             justify-content: center;
      
@@ -220,8 +221,8 @@ text-decoration: none;
         .section h1{
             font-size: 20px;
             filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-            height:60;
-            width:258 ;
+            height:60px;
+            width:258px ;
             
             
         }
@@ -229,8 +230,8 @@ text-decoration: none;
             font-size:20px ;
             color: gainsboro;
             margin-bottom: 35px;
-            height: 50;
-            width: 250;
+            height: 50px;
+            width: 50px;
            
             
     }
@@ -241,7 +242,7 @@ text-decoration: none;
         margin-top: 38px ,28px;
         padding-left: 120px;
         margin-left: 110px;
-        width: 280px;
+        width: 180px;
         height: 178px;
         
     }
