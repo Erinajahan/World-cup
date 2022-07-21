@@ -5,7 +5,7 @@
     font-family: 'Poppins', sans-serif;
     background-color: white;
 }
-@media only screen and (max-width: 900px) {
+@media (min-width: 600px) and( max-width: 900px) {
     /* tablet device--------- */
 
 /* header start-------- */
